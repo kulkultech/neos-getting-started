@@ -1,0 +1,22 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*",
+        "neos/nodetypes": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "test/localhost",
+    "autoload": {
+        "psr-4": {
+            "test\\localhost\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "test.localhost"
+        }
+    }
+}
